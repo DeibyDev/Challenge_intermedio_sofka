@@ -1,0 +1,17 @@
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a href="/preguntas">
+          <img src="https://ik.imagekit.io/lvh0tltbeph/SofkaU/logo-sofkau_1Fn3uH-1S.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645658493330" alt="" width="200" height="75">
+        </a>
+        
+        
+      <form *ngIf="userLogged|async as user">
+        <button class="btn p-button-secondary" style="margin-right: 10px;" disabled="true">Bienvenido {{user.email}}</button>  
+        <button pButton pRipple type="button" class="p-button-outlined p-button-danger" style="text-align: center;" [disabled]="disabled" (click)="logOut()"><i class="pi pi-power-off" style="margin-left: 5px;"></i></button>
+      </form>     
+      <button *ngIf="disabled" pButton pRipple type="button" label="Iniciar Sesion" class="p-button-warning" (click)="login()"></button>
+      
+
+     
+    </div>
+  </nav>
