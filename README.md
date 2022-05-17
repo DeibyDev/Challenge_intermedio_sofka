@@ -21,7 +21,7 @@ Se cuenta actualmente con un sistema de de preguntas y respuestas, donde los usu
 logueados pueden realizar respuestas o lo demás usuarios y estos responderlas; los usuario
 no logueados solo podrán ver.
 
-## Uso de los Endpoint :file_folder: [Documentacion](https://documenter.getpostman.com/view/20854388/UyxjH7Fm").
+## Uso de los Endpoint :file_folder: [Documentacion](https://documenter.getpostman.com/view/20854388/UyxjH7Fm).
 
 
 ![Ingresar](https://ceahcentros.com/wp-content/uploads/2020/10/giphy-2.gif)
